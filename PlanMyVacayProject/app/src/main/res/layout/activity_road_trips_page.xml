@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical|fill_horizontal|fill"
+    tools:context=".FlightsPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2bb9e5"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Road Trips"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_button1"
+            android:onClick="Trip"
+            android:text="Trip Name"
+            android:textSize="45dp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/rounded_button2"
+            android:gravity="center"
+            android:onClick="List"
+            android:text="Checklist"
+            android:textColor="#faf9f9"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/rounded_button3"
+            android:onClick="Destination"
+            android:text="Enter Destinations"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_button3"
+            android:onClick="Rental"
+            android:text="Enter Car Rental"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_button3"
+            android:onClick="Hotel"
+            android:text="Enter Hotel"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_button3"
+            android:onClick="Excursion"
+            android:text="Enter Excursions"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/rounded_button3"
+            android:onClick="Restaurant"
+            android:text="Enter Restaurant"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical">
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
